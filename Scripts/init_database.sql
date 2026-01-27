@@ -1,3 +1,5 @@
+/*
+
 =========================================
 create Databases and Schemas 
 =========================================
@@ -5,6 +7,7 @@ Script Purposes:
 	This Script create a new database named 'DATAWAREHOUSE' .
 	Additionally , the scripts sets up three schemas within the database : 'silver','bronze' and 'gold'.
 
+*/
 
 -- creating  the database 'DATAWAREHOUSE'
 CREATE DATABASE DATAWAREHOUSE
@@ -25,3 +28,4 @@ go
 create schema gold;
 
 go
+
